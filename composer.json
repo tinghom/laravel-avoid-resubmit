@@ -1,7 +1,10 @@
 {
     "name": "tinghom/laravel-avoid-resubmit",
     "description": "A package that is applied to Laravel to avoid resubmitting form data",
-    "keywords": ["laravel", "resubmit"],
+    "keywords": [
+        "laravel",
+        "resubmit"
+    ],
     "authors": [
         {
             "name": "tinghom",
@@ -9,13 +12,13 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/support": "~5.0"
+        "php": "^5.6|^7.0|^8.0",
+        "illuminate/support": "^5.5|^6.0|^7.0|^8.0"
     },
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Tinghom\\Middleware\\": "src/"
+            "Tinghom\\": "src/"
         }
     },
     "extra": {
